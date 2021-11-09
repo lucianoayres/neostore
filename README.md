@@ -5,7 +5,9 @@
 
 ## About
 
-Responsive concept e-commerce website created with React, [Next.js](https://www.nextjs.org) and [DatoCMS](https://www.datocms.com) for the NeoMacro challenge. Made in [TypeScript](https://www.typescriptlang.org) with declarative user interface built with [Chakra-UI](https://www.npmjs.com/package/@chakra-ui/react), forms with [react-hook-form](https://react-hook-form.com/) and tests with [Jest](https://jestjs.io/).
+Responsive concept [e-commerce website](https://neostore.vercel.app/) created with React, [Next.js](https://www.nextjs.org) and [DatoCMS](https://www.datocms.com) for the NeoMacro challenge. Made in [TypeScript](https://www.typescriptlang.org) with declarative user interface built with [Chakra-UI](https://www.npmjs.com/package/@chakra-ui/react), forms with [react-hook-form](https://react-hook-form.com/) and tests with [Jest](https://jestjs.io/).
+
+Deployed on Vercel: [https://https://neostore.vercel.app/](https://neostore.vercel.app/)
 
 Original layout by [NeoMacro](https://www.neomacro.com.br).
 
