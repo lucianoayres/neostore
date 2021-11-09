@@ -1,16 +1,17 @@
 <h2 align="center">NeoStore | Concept e-commerce responsive website</h2>
 ## About
 
-'NeoStore' is a responsive concept e-commerce website created with React.js and Next.js for the NeoMacro challenge.
+Responsive concept e-commerce website created with React.js and Next.js for the NeoMacro challenge. Declarative UI built with [Chakra-UI](https://www.npmjs.com/package/@chakra-ui/react) and forms with [react-hook-form](https://react-hook-form.com/).
 
 ### Features
 
-- Desktop and Mobile versions
+- Incremental Static Regeneration (ISR) with [Next.js](https://www.nextjs.org)
 - [DATO CMS](https://www.datocms.com) headless CMS back end
 - Product Search
 - Search Filter by Rating
 - Search Filer by Max. and Min. price
 - Add to Cart
+- Desktop and Mobile versions
 
 ## Setup
 
