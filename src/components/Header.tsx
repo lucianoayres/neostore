@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import { HamburgerIcon } from '@chakra-ui/icons'
 import {
   Box,
@@ -13,7 +14,7 @@ import {
 import React from 'react'
 import { RiArrowDropDownFill, RiShoppingCart2Line } from 'react-icons/ri'
 import { Logo } from '../components/Logo'
-import { SearchBoxCloseButton } from '../components/SearchBox/SearchBoxCloseButton'
+import { SearchBoxCloseButton } from '../components/SearchBoxCloseButton'
 import { helperNumberFormat } from '../helpers/helperNumberFormat'
 
 import { Product } from '../types'
@@ -38,6 +39,10 @@ export function Header({
   })
   return (
     <>
+      <Head>
+        <title>NeoStore | React + Next.js concept e-commerce store</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Flex
         as="header"
         h="20"
