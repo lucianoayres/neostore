@@ -1,11 +1,15 @@
 <br />
 <p align="center"><img src="https://user-images.githubusercontent.com/20209393/140961728-ad588d0b-c1c5-458d-ac46-0a65c56d87d3.png" /></p>
 
-<h2 align="center">NeoStore | Concept e-commerce responsive website</h2>
+<h2 align="center">Concept e-commerce React + Next.js responsive website</h2>
 
 ## About
 
 Responsive concept e-commerce website created with React and [Next.js](https://www.nextjs.org) for the NeoMacro challenge. Declarative UI built with [Chakra-UI](https://www.npmjs.com/package/@chakra-ui/react) and forms with [react-hook-form](https://react-hook-form.com/).
+
+### Screenshot
+
+![Screenshot from 2021-11-09 13-12-54](https://user-images.githubusercontent.com/20209393/140961717-608c4e23-69e5-48ee-86ac-73babd4ae8cd.png)
 
 ### Features
 
