@@ -1,7 +1,7 @@
 <br />
 <p align="center"><img src="https://user-images.githubusercontent.com/20209393/140961728-ad588d0b-c1c5-458d-ac46-0a65c56d87d3.png" /></p>
 
-<h2 align="center">Concept e-commerce React + Next.js responsive website</h2>
+<h2 align="center">Concept React + Next.js e-commerce  responsive website</h2>
 
 ## About
 
