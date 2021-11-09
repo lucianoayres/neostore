@@ -16,7 +16,7 @@ Responsive concept e-commerce website created with React and [Next.js](https://w
 
 ## Setup
 
-### Project Dependencies
+### Dependencies
 
 First, install the project dependencies:
 
