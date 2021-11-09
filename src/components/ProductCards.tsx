@@ -9,7 +9,7 @@ import {
   Text,
   useBreakpointValue
 } from '@chakra-ui/react'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { RiArrowDropDownFill, RiStarFill, RiStarLine } from 'react-icons/ri'
 import Rating from 'react-rating'
 import { helperTruncate } from '../helpers/helperTruncate'
@@ -43,6 +43,12 @@ export function ProductCards({
     base: false,
     lg: true
   })
+
+  const [isFirstLoad, setIsFirstLoad] = useState(false)
+
+  useEffect(() => {
+    setIsFirstLoad(true)
+  }, [])
 
   return (
     <>
@@ -154,6 +160,10 @@ export function ProductCards({
             )
           })}
         </SimpleGrid>
+      ) : isFirstLoad ? (
+        <Flex justify="center" mt={8}>
+          <Text>Loading products...</Text>
+        </Flex>
       ) : (
         <Flex justify="center" mt={8}>
           <Text>Sorry, product not found.</Text>
