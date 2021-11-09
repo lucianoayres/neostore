@@ -1,3 +1,6 @@
+<he align="center">![Screenshot from 2021-11-09 13-13-13](https://user-images.githubusercontent.com/20209393/140961728-ad588d0b-c1c5-458d-ac46-0a65c56d87d3.png)
+)</h2>
+
 <h2 align="center">NeoStore | Concept e-commerce responsive website</h2>
 
 ## About
