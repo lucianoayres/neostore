@@ -16,7 +16,7 @@ Original layout by [NeoMacro](https://www.neomacro.com.br).
 ### Features
 
 - Incremental Static Regeneration (ISR) with [Next.js](https://www.nextjs.org)
-- [Dato CMS](https://www.datocms.com) headless CMS back end
+- [DatoCMS](https://www.datocms.com) headless CMS back end
 - Product Search
 - Search Filter by Rating
 - Search Filer by Max. and Min. price
@@ -35,7 +35,7 @@ yarn
 
 ### API Token
 
-Rename '.env.local.example' file in the project root folder to '.env.local' and insert your [Dato CMS](https://www.datocms.com) API Token:
+Rename '.env.local.example' file in the project root folder to '.env.local' and insert your [DatoCMS](https://www.datocms.com) API Token:
 
 ```bash
 DATO_CMS_READ_ONLY_API_TOKEN='<YOUR DATO CMS API TOKEN>'
