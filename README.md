@@ -17,6 +17,7 @@ Original layout by [NeoMacro](https://www.neomacro.com.br).
 
 - Incremental Static Regeneration (ISR) with [Next.js](https://www.nextjs.org)
 - [DatoCMS](https://www.datocms.com) headless CMS back end
+- Product Rating
 - Product Search
 - Search Filter by Rating
 - Search Filer by Max. and Min. price
