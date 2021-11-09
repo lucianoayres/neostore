@@ -1,3 +1,16 @@
+## About
+
+'NeoStore' is a responsive e-commerce concept store created with React.js and Next.js for the NeoMacro challenge.
+
+### Features
+
+- Desktop and Mobile versions
+- [DATO CMS](https://www.datocms.com) headless CMS back end
+- Product Search
+- Search Filter by Rating
+- Search Filer by Max. and Min. price
+- Add to Cart
+
 ## Setup
 
 ### Project Dependencies
