@@ -7,6 +7,8 @@
 
 Responsive concept e-commerce website created with React and [Next.js](https://www.nextjs.org) for the NeoMacro challenge. Declarative UI built with [Chakra-UI](https://www.npmjs.com/package/@chakra-ui/react) and forms with [react-hook-form](https://react-hook-form.com/).
 
+Original layout by [NeoMacro](https://www.neomacro.com.br).
+
 ### Screenshot
 
 ![Screenshot from 2021-11-09 13-12-54](https://user-images.githubusercontent.com/20209393/140961717-608c4e23-69e5-48ee-86ac-73babd4ae8cd.png)
@@ -14,7 +16,7 @@ Responsive concept e-commerce website created with React and [Next.js](https://w
 ### Features
 
 - Incremental Static Regeneration (ISR) with [Next.js](https://www.nextjs.org)
-- [DATO CMS](https://www.datocms.com) headless CMS back end
+- [Dato CMS](https://www.datocms.com) headless CMS back end
 - Product Search
 - Search Filter by Rating
 - Search Filer by Max. and Min. price
