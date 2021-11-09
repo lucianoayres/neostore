@@ -25,7 +25,7 @@ Original layout by [NeoMacro](https://www.neomacro.com.br).
 - Search Filer by Max. and Min. price
 - Add to Cart
 - Desktop and Mobile versions
-- Testes with [Jest](https://jestjs.io/)
+- Tests with [Jest](https://jestjs.io/)
 
 ## Setup
 
