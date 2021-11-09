@@ -12,8 +12,10 @@ yarn
 
 Rename '.env.local.example' file in the project root folder to '.env.local' and insert your DATO CMS API Token:
 
+```bash
 DATO_CMS_READ_ONLY_API_TOKEN='<YOUR DATO CMS API TOKEN>'
 DATO_CMS_API_ENDPOINT='https://graphql.datocms.com'
+```
 
 ## Run server
 
