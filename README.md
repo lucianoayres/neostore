@@ -1,10 +1,14 @@
 ## Setup
 
+### Project Dependencies
+
 First, install the project dependencies:
 
 ```bash
 yarn
 ```
+
+### DATO CMS API Token
 
 Rename '.env.local.example' file in the project root folder to '.env.local' and insert your DATO CMS API Token:
 
