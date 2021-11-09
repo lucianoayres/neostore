@@ -1,7 +1,7 @@
-<h2 align="center">NeoStore | Concept E-commerce responsive website</h2>
+<h2 align="center">NeoStore | Concept e-commerce responsive website</h2>
 ## About
 
-'NeoStore' is a responsive e-commerce concept store created with React.js and Next.js for the NeoMacro challenge.
+'NeoStore' is a responsive e-commerce concept online store created with React.js and Next.js for the NeoMacro challenge.
 
 ### Features
 
