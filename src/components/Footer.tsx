@@ -31,7 +31,7 @@ export function Footer({
       {!isWideVersion && (
         <Flex m="4">
           <Button
-            w="100vh"
+            w="96vw"
             color="light.title"
             bgColor="light.button"
             size="lg"

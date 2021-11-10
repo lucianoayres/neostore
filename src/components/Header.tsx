@@ -42,7 +42,6 @@ export function Header({
       <Head>
         <title>NeoStore | React + Next.js concept e-commerce store</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       <Flex
         as="header"
