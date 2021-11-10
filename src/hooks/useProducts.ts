@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import { Product } from '../types'
-
+import { useMediaQuery } from '@chakra-ui/react'
 import { helperNotify } from '../helpers/helperNotify'
 
 interface useProductsProps {
@@ -22,6 +22,8 @@ export function useProducts({ products, totalProducts }: useProductsProps) {
   )
   const [cartItems, setCartItems] = useState<Product[]>([])
   const [subTotal, setSubTotal] = useState(0)
+
+  const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
 
   useEffect(() => {
     const newProducts = [...allProducts].slice(
@@ -57,7 +59,9 @@ export function useProducts({ products, totalProducts }: useProductsProps) {
       'success',
       'Added to cart successfully!',
       'success-message-added-to-cart',
-      2000
+      2000,
+      false,
+      isLargerThan1280
     )
 
     const clickedButton = event.currentTarget as HTMLButtonElement

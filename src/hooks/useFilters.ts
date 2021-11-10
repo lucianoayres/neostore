@@ -1,7 +1,7 @@
 import { useDisclosure } from '@chakra-ui/react'
 import { useState } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
-
+import { useMediaQuery } from '@chakra-ui/react'
 import { Product } from '../types/index'
 import { helperNotify } from '../helpers/helperNotify'
 
@@ -29,6 +29,8 @@ export function useFilters({
     modalMinValue: number
     modalRatingValue: string
   }
+
+  const [isLargerThan1280] = useMediaQuery('(min-width: 1280px)')
 
   const {
     register,
@@ -67,7 +69,9 @@ export function useFilters({
         'error',
         'Invalid value! Max and Min value must be 1 or greater.',
         'error-message-invalid-value-greater-than-one',
-        5000
+        5000,
+        false,
+        isLargerThan1280
       )
       return
     }
@@ -118,10 +122,8 @@ export function useFilters({
 
   function applyFilters(max = 0, min = 0, rating = '0') {
     let newAllProducts = [...products]
-    console.log(max)
-    console.log(min)
+
     if (max) {
-      console.log(max)
       newAllProducts = newAllProducts
         .filter((item) => item.price >= min && item.price <= max)
         .sort((a, b) => b.price - a.price)

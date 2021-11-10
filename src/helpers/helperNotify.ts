@@ -5,10 +5,11 @@ export function helperNotify(
   message: string,
   toastId: string,
   autoClose: number,
-  hideProgressBar = false
+  hideProgressBar = false,
+  isWideVersion = true
 ) {
   toast[type](message, {
-    position: 'top-right',
+    position: isWideVersion ? 'bottom-left' : 'top-right',
     autoClose,
     hideProgressBar,
     closeOnClick: true,

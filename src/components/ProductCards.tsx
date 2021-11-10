@@ -61,7 +61,7 @@ export function ProductCards({
           maxWidth={1440}
           w={['96vw', '50vw']}
         >
-          {filteredProducts.map((product, index) => {
+          {filteredProducts.map((product) => {
             const productIndex = allProducts.findIndex(
               (item) => item.id === product.id
             )
