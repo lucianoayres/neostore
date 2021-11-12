@@ -9,8 +9,6 @@ Responsive concept [e-commerce website](https://neostore.vercel.app/) created wi
 
 Deployed on Vercel: [https://https://neostore.vercel.app/](https://neostore.vercel.app/)
 
-Original layout by [NeoMacro](https://www.neomacro.com.br).
-
 ### Screenshot
 
 ![Screenshot from 2021-11-09 13-12-54](https://user-images.githubusercontent.com/20209393/140961717-608c4e23-69e5-48ee-86ac-73babd4ae8cd.png)
